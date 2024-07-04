@@ -13,8 +13,11 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button  Width="100" Click="Back_Button_Click" Content="&lt;"/>
             <Button  Width="100" Click="Button_Click_1" Content="Page1"/>
             <Button  Width="100" Click="Button_Click_2" Content="Page2"/>
+            <Button  Width="100" Click="Button_Click_3" Content="Page3"/>
+            <Button  Width="100" Click="Forward_Button_Click" Content="&gt;"/>
         </StackPanel>
         
         <Frame Grid.Row="1" NavigationUIVisibility="Hidden" Name="MainWindowFrame">
